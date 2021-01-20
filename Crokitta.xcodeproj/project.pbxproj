@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240EFF0462F09578964936EB /* Pods_Crokitta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B73CF7536500010AFE2454 /* Pods_Crokitta.framework */; };
+		F45C71F525AFE5DB00BB74E6 /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45C71F325AFE5DB00BB74E6 /* SignUpVc.swift */; };
+		F45C71F625AFE5DB00BB74E6 /* SignUpVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = F45C71F425AFE5DB00BB74E6 /* SignUpVc.xib */; };
 		F49FD0FF25AF97AA00CB8DE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FD0FE25AF97AA00CB8DE2 /* AppDelegate.swift */; };
 		F49FD10125AF97AA00CB8DE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FD10025AF97AA00CB8DE2 /* SceneDelegate.swift */; };
-		F49FD10325AF97AA00CB8DE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FD10225AF97AA00CB8DE2 /* ViewController.swift */; };
-		F49FD10625AF97AA00CB8DE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49FD10425AF97AA00CB8DE2 /* Main.storyboard */; };
 		F49FD10825AF97BE00CB8DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49FD10725AF97BE00CB8DE2 /* Assets.xcassets */; };
 		F49FD10B25AF97BE00CB8DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49FD10925AF97BE00CB8DE2 /* LaunchScreen.storyboard */; };
+		F49FD11425AF981D00CB8DE2 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FD11225AF981D00CB8DE2 /* HomeVc.swift */; };
+		F49FD11525AF981D00CB8DE2 /* HomeVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49FD11325AF981D00CB8DE2 /* HomeVc.xib */; };
+		F49FD11B25AFA85200CB8DE2 /* SignInVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FD11925AFA85200CB8DE2 /* SignInVc.swift */; };
+		F49FD11C25AFA85200CB8DE2 /* SignInVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49FD11A25AFA85200CB8DE2 /* SignInVc.xib */; };
+		F49FD11E25AFC1AE00CB8DE2 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FD11D25AFC1AE00CB8DE2 /* extension.swift */; };
+		F4E7C99325B13A62004AE708 /* SignUP+UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E7C99225B13A62004AE708 /* SignUP+UpdateView.swift */; };
+		F4E7C99525B209C2004AE708 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4E7C99425B209C2004AE708 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6DD93B484BE9107DE6CA5FF3 /* Pods-Crokitta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crokitta.debug.xcconfig"; path = "Target Support Files/Pods-Crokitta/Pods-Crokitta.debug.xcconfig"; sourceTree = "<group>"; };
+		A477D3E446CACED190B29B40 /* Pods-Crokitta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crokitta.release.xcconfig"; path = "Target Support Files/Pods-Crokitta/Pods-Crokitta.release.xcconfig"; sourceTree = "<group>"; };
+		C3B73CF7536500010AFE2454 /* Pods_Crokitta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crokitta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45C71F325AFE5DB00BB74E6 /* SignUpVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVc.swift; sourceTree = "<group>"; };
+		F45C71F425AFE5DB00BB74E6 /* SignUpVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVc.xib; sourceTree = "<group>"; };
 		F49FD0FB25AF97AA00CB8DE2 /* Crokitta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crokitta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49FD0FE25AF97AA00CB8DE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F49FD10025AF97AA00CB8DE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F49FD10225AF97AA00CB8DE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F49FD10525AF97AA00CB8DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F49FD10725AF97BE00CB8DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49FD10A25AF97BE00CB8DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49FD10C25AF97BE00CB8DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49FD11225AF981D00CB8DE2 /* HomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
+		F49FD11325AF981D00CB8DE2 /* HomeVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVc.xib; sourceTree = "<group>"; };
+		F49FD11925AFA85200CB8DE2 /* SignInVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVc.swift; sourceTree = "<group>"; };
+		F49FD11A25AFA85200CB8DE2 /* SignInVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInVc.xib; sourceTree = "<group>"; };
+		F49FD11D25AFC1AE00CB8DE2 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		F4E7C99225B13A62004AE708 /* SignUP+UpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUP+UpdateView.swift"; sourceTree = "<group>"; };
+		F4E7C99425B209C2004AE708 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240EFF0462F09578964936EB /* Pods_Crokitta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BD19D835FF3EDD2BFE4616F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B73CF7536500010AFE2454 /* Pods_Crokitta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858BB92909A7A9412CD8C140 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DD93B484BE9107DE6CA5FF3 /* Pods-Crokitta.debug.xcconfig */,
+				A477D3E446CACED190B29B40 /* Pods-Crokitta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F49FD0F225AF97AA00CB8DE2 = {
 			isa = PBXGroup;
 			children = (
 				F49FD0FD25AF97AA00CB8DE2 /* Crokitta */,
 				F49FD0FC25AF97AA00CB8DE2 /* Products */,
+				858BB92909A7A9412CD8C140 /* Pods */,
+				1BD19D835FF3EDD2BFE4616F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,54 @@
 		F49FD0FD25AF97AA00CB8DE2 /* Crokitta */ = {
 			isa = PBXGroup;
 			children = (
-				F49FD0FE25AF97AA00CB8DE2 /* AppDelegate.swift */,
-				F49FD10025AF97AA00CB8DE2 /* SceneDelegate.swift */,
-				F49FD10225AF97AA00CB8DE2 /* ViewController.swift */,
-				F49FD10425AF97AA00CB8DE2 /* Main.storyboard */,
+				F49FD11825AF9A4D00CB8DE2 /* Support */,
+				F49FD11725AF9A1C00CB8DE2 /* Controller */,
+				F49FD11625AF9A0500CB8DE2 /* Views */,
 				F49FD10725AF97BE00CB8DE2 /* Assets.xcassets */,
-				F49FD10925AF97BE00CB8DE2 /* LaunchScreen.storyboard */,
+				F4E7C99425B209C2004AE708 /* GoogleService-Info.plist */,
 				F49FD10C25AF97BE00CB8DE2 /* Info.plist */,
 			);
 			path = Crokitta;
+			sourceTree = "<group>";
+		};
+		F49FD11625AF9A0500CB8DE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F49FD11325AF981D00CB8DE2 /* HomeVc.xib */,
+				F49FD11A25AFA85200CB8DE2 /* SignInVc.xib */,
+				F45C71F425AFE5DB00BB74E6 /* SignUpVc.xib */,
+				F49FD10925AF97BE00CB8DE2 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F49FD11725AF9A1C00CB8DE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F49FD11225AF981D00CB8DE2 /* HomeVc.swift */,
+				F49FD11925AFA85200CB8DE2 /* SignInVc.swift */,
+				F4E7C99125B13A1A004AE708 /* SignUP */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F49FD11825AF9A4D00CB8DE2 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F49FD0FE25AF97AA00CB8DE2 /* AppDelegate.swift */,
+				F49FD11D25AFC1AE00CB8DE2 /* extension.swift */,
+				F49FD10025AF97AA00CB8DE2 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F4E7C99125B13A1A004AE708 /* SignUP */ = {
+			isa = PBXGroup;
+			children = (
+				F45C71F325AFE5DB00BB74E6 /* SignUpVc.swift */,
+				F4E7C99225B13A62004AE708 /* SignUP+UpdateView.swift */,
+			);
+			path = SignUP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F49FD10F25AF97BE00CB8DE2 /* Build configuration list for PBXNativeTarget "Crokitta" */;
 			buildPhases = (
+				69F1BB4189842D773ADA2B04 /* [CP] Check Pods Manifest.lock */,
 				F49FD0F725AF97AA00CB8DE2 /* Sources */,
 				F49FD0F825AF97AA00CB8DE2 /* Frameworks */,
 				F49FD0F925AF97AA00CB8DE2 /* Resources */,
+				51817B3BC9F01AB2C5D38B4D /* [CP] Embed Pods Frameworks */,
+				90650E256ADA70CFD93B8EB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,19 +207,85 @@
 			files = (
 				F49FD10B25AF97BE00CB8DE2 /* LaunchScreen.storyboard in Resources */,
 				F49FD10825AF97BE00CB8DE2 /* Assets.xcassets in Resources */,
-				F49FD10625AF97AA00CB8DE2 /* Main.storyboard in Resources */,
+				F45C71F625AFE5DB00BB74E6 /* SignUpVc.xib in Resources */,
+				F49FD11C25AFA85200CB8DE2 /* SignInVc.xib in Resources */,
+				F49FD11525AF981D00CB8DE2 /* HomeVc.xib in Resources */,
+				F4E7C99525B209C2004AE708 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51817B3BC9F01AB2C5D38B4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crokitta/Pods-Crokitta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crokitta/Pods-Crokitta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crokitta/Pods-Crokitta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69F1BB4189842D773ADA2B04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crokitta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90650E256ADA70CFD93B8EB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crokitta/Pods-Crokitta-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crokitta/Pods-Crokitta-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crokitta/Pods-Crokitta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F49FD0F725AF97AA00CB8DE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49FD10325AF97AA00CB8DE2 /* ViewController.swift in Sources */,
+				F4E7C99325B13A62004AE708 /* SignUP+UpdateView.swift in Sources */,
+				F49FD11425AF981D00CB8DE2 /* HomeVc.swift in Sources */,
 				F49FD0FF25AF97AA00CB8DE2 /* AppDelegate.swift in Sources */,
+				F49FD11E25AFC1AE00CB8DE2 /* extension.swift in Sources */,
+				F49FD11B25AFA85200CB8DE2 /* SignInVc.swift in Sources */,
+				F45C71F525AFE5DB00BB74E6 /* SignUpVc.swift in Sources */,
 				F49FD10125AF97AA00CB8DE2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +293,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F49FD10425AF97AA00CB8DE2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F49FD10525AF97AA00CB8DE2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F49FD10925AF97BE00CB8DE2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +420,7 @@
 		};
 		F49FD11025AF97BE00CB8DE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD93B484BE9107DE6CA5FF3 /* Pods-Crokitta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +438,7 @@
 		};
 		F49FD11125AF97BE00CB8DE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A477D3E446CACED190B29B40 /* Pods-Crokitta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
